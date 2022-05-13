@@ -37,5 +37,5 @@ User story: I can go to certain locations by selecting links in navigation or fo
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub [@AygunHajiyeva](https://github.com/AygunHajiyeva)
 
