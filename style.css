@@ -9,12 +9,22 @@ font-family: 'Heebo', sans-serif; */
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 body {
-  padding: 0 15px;
+  overflow-x: hidden;
+}
+
+img {
+  border-radius: 12px;
 }
 
 /* Navbar */
+nav {
+  padding: 0 15px;
+}
+.nav-active {
+  background-color: #fff;
+  box-shadow: 5px -1px 12px -5px grey;
+}
 
 .navbar-toggler {
   border: 0;
@@ -226,8 +236,8 @@ label {
   background-color: #2d9cdb;
   color: white;
 }
-
-.card:nth-child(2) {
+.card:hover {
+  transition: 0.2s;
   box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
 }
 
@@ -361,7 +371,8 @@ label {
 
 .client-card img {
   width: 90px;
-  object-fit: contain;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
 .client-detail {
@@ -492,8 +503,18 @@ footer {
 /* Desktop */
 
 @media screen and (min-width: 768px) {
+  /* Navbar  */
+
+  /* Home */
   .smaller:first-child {
     font-size: 18px;
+  }
+
+  .home-image {
+    margin-bottom: 30px;
+  }
+  .home-image img {
+    border-radius: 12px;
   }
 
   #home {
@@ -502,10 +523,6 @@ footer {
 
   .smaller {
     margin-left: 15%;
-  }
-
-  #home img {
-    padding-bottom: 35px;
   }
 
   #home h1 {

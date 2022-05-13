@@ -24,6 +24,9 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <!-- jQuery CDN -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!--Core CSS -->
     <link rel="stylesheet" href="/style.css" />
@@ -71,177 +74,181 @@
         </ul>
       </div>
     </nav>
-
-    <section id="home">
-      <a href="#" class="smaller">Unhappy with your website?</a>
-      <div class="smaller">
-        <h1>We create beautiful and fast web services</h1>
-      </div>
-      <img src="/images/heroImage.jpg" />
-      <div class="smaller">
-        <h1>Story, emotion and purpose</h1>
-      </div>
-      <p class="smaller">
-        We help transform your ideas into real world applications that will
-        outperform your toughest competition and help you achieve your strategic
-        goals in short period of time.
-      </p>
-
-      <label for="email" class="smaller">
-        Want us to contact you?
-        <div class="email-input">
-          <input type="email" placeholder="Email" required />
-          <button type="submit" id="btn-join">Join</button>
+    <div class="container">
+      <section id="home">
+        <a href="#" class="smaller">Unhappy with your website?</a>
+        <div class="smaller">
+          <h1>We create beautiful and fast web services</h1>
         </div>
-      </label>
-    </section>
+        <div class="home-image"><img src="/images/heroImage.jpg" /></div>
 
-    <!-- Services -->
-
-    <section id="services">
-      <h2 class="services-title">We offer high demand services</h2>
-
-      <div class="card-wrapper">
-        <div class="card">
-          <div class="icon"><i class="fa-solid fa-pen"></i></div>
-          <h2>UI/UX Design</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
-            metus ac nulla consequat aliquet id quis turpis.
-          </p>
-          <button class="card-button">Get started</button>
+        <div class="smaller">
+          <h1>Story, emotion and purpose</h1>
         </div>
+        <p class="smaller">
+          We help transform your ideas into real world applications that will
+          outperform your toughest competition and help you achieve your
+          strategic goals in short period of time.
+        </p>
 
-        <div class="card">
-          <div class="icon icon2"><i class="fa-solid fa-code"></i></div>
-          <h2>Front End</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
-            metus ac nulla consequat aliquet id quis turpis.
-          </p>
-          <button class="card-button card-button2">Get started</button>
-        </div>
-
-        <div class="card">
-          <div class="icon icon3"><i class="fa-solid fa-server"></i></div>
-          <h2>Back End</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
-            metus ac nulla consequat aliquet id quis turpis.
-          </p>
-          <button class="card-button">Get started</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Our Works -->
-    <section id="our-works">
-      <h2 class="our-works-title">Good design means good business</h2>
-
-      <div class="design-wrapper">
-        <div class="design below">
-          <img src="/images/smarthome.jpg" />
-          <p>Full stack application</p>
-          <p class="design-title">Smart home dashboard</p>
-        </div>
-
-        <div class="design">
-          <img src="/images/onboard.png" />
-          <p>UX/UI design</p>
-          <p class="design-title">Onboard application</p>
-        </div>
-
-        <div class="design below">
-          <img src="/images/booking.png" />
-          <p>Mobile application</p>
-          <p class="design-title">Booking system</p>
-        </div>
-
-        <div class="design">
-          <img src="/images/juice-product.png" />
-          <p>Front End application</p>
-          <p class="design-title">Juice product homepage</p>
-        </div>
-      </div>
-
-      <div id="see-more">
-        <a href="#">see more</a><i class="fa-solid fa-arrow-right-long"></i>
-      </div>
-    </section>
-
-    <!-- Team -->
-
-    <section id="team">
-      <div class="team-text">
-        <p>Meet the team</p>
-        <h3>We are chilled and a laidback team</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="team-photos">
-        <img src="/images/person3.png" />
-        <img src="/images/person1.png" />
-        <img src="/images/person2.png" />
-      </div>
-    </section>
-
-    <!-- Clients -->
-    <section id="clients">
-      <p class="clients-text">
-        “Fast and outstanding resutls. Edie understands their customer’s needs.
-        They have a young and talented team.”
-      </p>
-      <div class="client-card">
-        <img src="/images/person4.png" />
-        <div class="client-detail">
-          <p>Carlos Tran</p>
-          <p>The Decorate Gatsby</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer id="contact">
-      <div class="footer-items">
-        <ul class="footer-navbar">
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#our-works">Our Works</a>
-          </li>
-          <li>
-            <a href="#clients">Clients</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-
-        <div class="social-media">
-          <p>Edie</p>
-          <div class="social-media-icons">
-            <div><img src="/images/instagram.svg" /></div>
-            <div><img src="/images/linkedin.svg" /></div>
-            <div><img src="/images/twitter.svg" /></div>
-          </div>
-        </div>
-        <label for="email" class="label2">
+        <label for="email" class="smaller">
           Want us to contact you?
           <div class="email-input">
             <input type="email" placeholder="Email" required />
             <button type="submit" id="btn-join">Join</button>
           </div>
         </label>
-      </div>
-      <p class="github-link">
-        created by
-        <a href="https://github.com/AygunHajiyeva">@AygunHajiyeva</a> -
-        devChallenges.io
-      </p>
-    </footer>
+      </section>
+
+      <!-- Services -->
+
+      <section id="services">
+        <h2 class="services-title">We offer high demand services</h2>
+
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="icon"><i class="fa-solid fa-pen"></i></div>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button class="card-button">Get started</button>
+          </div>
+
+          <div class="card">
+            <div class="icon icon2"><i class="fa-solid fa-code"></i></div>
+            <h2>Front End</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button class="card-button card-button2">Get started</button>
+          </div>
+
+          <div class="card">
+            <div class="icon icon3"><i class="fa-solid fa-server"></i></div>
+            <h2>Back End</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button class="card-button">Get started</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Works -->
+      <section id="our-works">
+        <h2 class="our-works-title">Good design means good business</h2>
+
+        <div class="design-wrapper">
+          <div class="design below">
+            <img src="/images/smarthome.jpg" />
+            <p>Full stack application</p>
+            <p class="design-title">Smart home dashboard</p>
+          </div>
+
+          <div class="design">
+            <img src="/images/onboard.png" />
+            <p>UX/UI design</p>
+            <p class="design-title">Onboard application</p>
+          </div>
+
+          <div class="design below">
+            <img src="/images/booking.png" />
+            <p>Mobile application</p>
+            <p class="design-title">Booking system</p>
+          </div>
+
+          <div class="design">
+            <img src="/images/juice-product.png" />
+            <p>Front End application</p>
+            <p class="design-title">Juice product homepage</p>
+          </div>
+        </div>
+
+        <div id="see-more">
+          <a href="#">see more</a><i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </section>
+
+      <!-- Team -->
+
+      <section id="team">
+        <div class="team-text">
+          <p>Meet the team</p>
+          <h3>We are chilled and a laidback team</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="team-photos">
+          <img src="/images/person3.png" />
+          <img src="/images/person1.png" />
+          <img src="/images/person2.png" />
+        </div>
+      </section>
+
+      <!-- Clients -->
+      <section id="clients">
+        <p class="clients-text">
+          “Fast and outstanding resutls. Edie understands their customer’s
+          needs. They have a young and talented team.”
+        </p>
+        <div class="client-card">
+          <img src="/images/person4.png" />
+          <div class="client-detail">
+            <p>Carlos Tran</p>
+            <p>The Decorate Gatsby</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="contact">
+        <div class="footer-items">
+          <ul class="footer-navbar">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#our-works">Our Works</a>
+            </li>
+            <li>
+              <a href="#clients">Clients</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <div class="social-media">
+            <p>Edie</p>
+            <div class="social-media-icons">
+              <div><img src="/images/instagram.svg" /></div>
+              <div><img src="/images/linkedin.svg" /></div>
+              <div><img src="/images/twitter.svg" /></div>
+            </div>
+          </div>
+          <label for="email" class="label2">
+            Want us to contact you?
+            <div class="email-input">
+              <input type="email" placeholder="Email" required />
+              <button type="submit" id="btn-join">Join</button>
+            </div>
+          </label>
+        </div>
+        <p class="github-link">
+          created by
+          <a href="https://github.com/AygunHajiyeva">@AygunHajiyeva</a> -
+          devChallenges.io
+        </p>
+      </footer>
+    </div>
+
+    <script src="/script.js"></script>
   </body>
 </html>
