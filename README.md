@@ -6,7 +6,7 @@
 
 <div align="center">
   <h1>
-    <a href="https://magical-fudge-9a6b90.netlify.app/#">
+    <a href="https://edie-homepage-web.netlify.app/">
       >>>>Demo<<<<
     </a>
   </h1>
