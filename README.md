@@ -1,13 +1,14 @@
 <h1 align="center">EDIE HOMEPAGE</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>
+   <h2><a href="https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage">Click for Figma file</a></h2>
 </div>
 
 <div align="center">
   <h1>
     <a href="https://edie-homepage-web.netlify.app/">
-      >>>>Demo<<<<
+      >>>>Click for Demo<<<<
     </a>
   </h1>
 </div>
